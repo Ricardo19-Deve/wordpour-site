@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Word Pour — Pour letters. Any word bursts.</title>
+<meta name="description" content="Word Pour is a calm word puzzle for iPhone. Pour letters between glass vials; when a vial spells a word, it bursts.">
+<style>
+  :root { --teal: #0f2e2e; --teal2: #164242; --parchment: #f3e9d2; --amber: #e8a33d; --rose: #d9667a; --glass: #bfefef; --muted: #7fa3a3; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Nunito", system-ui, -apple-system, sans-serif; background: radial-gradient(circle at 50% 30%, var(--teal2), var(--teal) 70%); color: var(--parchment); min-height: 100vh; }
+  main { max-width: 720px; margin: 0 auto; padding: 56px 24px 80px; text-align: center; }
+  h1 { font-family: "Fraunces", Georgia, serif; font-size: 56px; margin: 12px 0 8px; letter-spacing: 0.02em; }
+  .tag { color: var(--muted); font-size: 20px; margin-bottom: 36px; }
+  .vial { width: 120px; height: 300px; margin: 0 auto; border: 5px solid var(--glass); border-radius: 44px; position: relative; overflow: hidden; background: rgba(28,74,74,.9); }
+  .layer { position: absolute; left: 6px; right: 6px; height: 66px; display: flex; align-items: center; justify-content: center; font-family: "Fraunces", Georgia, serif; font-weight: 900; font-size: 40px; color: var(--parchment); text-shadow: 0 2px 0 #101c1e; }
+  .l0 { bottom: 6px; background: var(--rose); border-radius: 0 0 36px 36px; }
+  .l1 { bottom: 72px; background: var(--amber); }
+  .l2 { bottom: 138px; background: var(--amber); }
+  .l3 { bottom: 204px; background: var(--rose); border-radius: 18px 18px 0 0; }
+  p { font-size: 18px; line-height: 1.55; }
+  .cta { display: inline-block; margin-top: 24px; padding: 16px 32px; background: var(--amber); color: #101c1e; border-radius: 32px; font-weight: 800; text-decoration: none; font-size: 18px; }
+  .links { margin-top: 48px; color: var(--muted); font-size: 15px; }
+  .links a { color: var(--glass); }
+</style>
+</head>
+<body>
+<main>
+  <div class="vial" aria-hidden="true">
+    <div class="layer l3">R</div>
+    <div class="layer l2">U</div>
+    <div class="layer l1">O</div>
+    <div class="layer l0">P</div>
+  </div>
+  <h1>WORD POUR</h1>
+  <div class="tag">Pour letters. Any word bursts.</div>
+  <p>A calm word puzzle for iPhone. Tap a vial, tap where to pour. When a vial fills with a real word, read from the bottom up, it bursts and fresh ink drops in. 150 levels, a Daily Pour shared by everyone, and a shelf that remembers every word you ever burst.</p>
+  <a class="cta" href="#" id="store">Coming soon to the App Store</a>
+  <div class="links">
+    <a href="privacy.html">Privacy policy</a> · <a href="mailto:ricardopacheco.pinheiro@hotmail.com">Support</a> · Made in Portugal by Ricardo Pinheiro
+  </div>
+</main>
+</body>
+</html>
